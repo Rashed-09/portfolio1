@@ -56,7 +56,7 @@ body {
     flex-direction: column;
     gap: 20px;
 }
-.textbanner h3 {
+.name {
     color: white;
     font-size: 28px;
     font-weight: 600;
@@ -85,4 +85,124 @@ body {
     border-radius: 50%;
     border: 2px solid white;
     background: green;
+}
+
+/* created some class property for single*/
+.centertext {
+    text-align: center;
+}
+.forbold {
+    font-size: large;
+    font-weight: 500;
+}
+.greentext{
+    color: green;
+}
+.bluebg{
+    background-color: blue;
+}
+.aquatext{
+    color: darkcyan;
+}
+.aquabg{
+    background-color: darkcyan;
+}
+.blackbold {
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 5px;
+}
+
+/* end of single class */
+
+
+
+
+.maincontainer {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 34px auto;
+    gap: 34px;
+}
+.revers {
+    flex-direction: row-reverse;
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.worktype a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.textarea .title{
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.picturearea figure img {
+    width: 500px;
+}
+
+.testmonial{
+    margin-top: 40px;
+}
+/* testmonial container  */
+.testmonialContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding: 30px 40px;
+}
+.testmonialContainer fieldset {
+    padding: 20px;
+}
+.testmonialContainer fieldset > div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    margin-top: 20px;
+}
+.testmonialContainer legend {
+    font-size: 38px;
+    padding: 10px;
+}
+.testmonialContainer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #1B1B1B;
+}
+
+/* recent work section  */
+.recentarticle {
+    background-color: #787878;
+    padding: 24px 10px;
+    border-radius: 5px;
+}
+.side1, .side2 {
+    padding: 20px;
+    
+}
+.recentcontainer img {
+    width: 500px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.recentparam {
+    padding: 20px 5px;
 }
